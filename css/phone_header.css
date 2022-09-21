@@ -1,0 +1,15 @@
+@media (max-width: 428px){
+    .header_text{
+    display: none;
+    }
+    .header_text_img{
+        width: 10px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header_texts{
+        grid-template-columns: 1fr;
+    }
+}

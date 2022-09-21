@@ -1,0 +1,13 @@
+@media (max-width: 428px){
+  
+    .footer_logo {
+        height: 15px;
+    }
+    .footer_phone {
+        height: 15px;
+    }
+    .footer_img {
+        height: 15px;
+    }
+    
+}

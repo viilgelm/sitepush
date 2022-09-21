@@ -1,0 +1,37 @@
+@font-face {
+
+font-family: "Rubik"; 
+
+src: url("fonts/RubikMonoOne-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+*{
+    font-family: "Rubik";
+    margin: 0;
+    padding: 0;
+}
+.header{
+    
+background-color: #CC0E00;
+    display: flex;
+    align-items: center;
+}
+.header_texts{
+    text-align: right;
+    margin: auto;
+    width: 100%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    align-items: center;
+}
+.header_text{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+.header_btn{
+    display: none;
+}

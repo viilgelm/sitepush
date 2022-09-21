@@ -1,0 +1,32 @@
+.footer{
+    text-align: center;
+    height: 100px;
+    background-color: #CC0E00;
+    width: 100%;
+    margin-top: 5%;
+    display: grid;
+    align-items: center;
+    }
+.footer_text{
+    color: white;
+    font-size:8px ;
+    text-decoration: none;
+   
+}
+
+.footer_counter{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+align-items: center;
+}
+.phone_btn{
+border: none;
+    background-color: transparent;
+}
+.profil_btn{
+border: none;
+    background-color: transparent;
+}

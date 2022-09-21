@@ -1,0 +1,68 @@
+@font-face {
+
+font-family: "Rubik"; 
+
+src: url("fonts/RubikMonoOne-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+*{
+    font-family: "Rubik";
+    
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+   text-align: center; 
+}
+.registration_btns{
+   
+}
+button{
+    width: 30%;
+    margin-left: auto;
+    margin-top: 10%;
+    text-align: center;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    background: linear-gradient(to right,#5588C1 ,#84E1DC );
+}
+.registration_input{
+    margin: auto;
+width: 100%;
+    margin-top: 5%;
+    border: none;
+    border-bottom: 2px solid #84E1DC ;
+    color: gainsboro;
+}
+.log-reg-part__link-to-main{
+margin-left: auto;
+
+}
+.incorrect-log-error,.incorrect-pswd-error{
+    display: none;
+}
+.form__inputs{
+margin: auto;
+}
+.submit-block{
+    text-align: center;
+width: 50%;
+margin: auto;
+}
+
+
+#btn{
+    margin-left: auto;
+}
+
+@media (max-width: 428px){
+    
+    button{
+        font-size: 5px;
+    }
+}

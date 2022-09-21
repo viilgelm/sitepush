@@ -1,0 +1,9 @@
+@media (max-width: 428px){
+    .about_us_h2{
+        font-size: 15px;
+    }
+    
+    .us_text{
+        font-size: 10px;
+    }
+}

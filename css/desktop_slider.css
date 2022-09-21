@@ -1,0 +1,30 @@
+
+.slider{
+    
+    position: relative;
+    
+    
+}
+
+.dots {
+  text-align: center;
+
+    margin-left: auto;
+    margin-top: -5%;
+}
+.dot{
+    
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    border: white 2px solid;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 1s ease;
+}
+
+.active{
+    background-color:white;
+}
+

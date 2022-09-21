@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+   <link href="css/desktop_registration.css" rel="stylesheet">
+    <script type="module" src="js/index.js" defer></script>
+</head>
+<body>
+    <main class="log-reg-part">
+        <form class="log-reg-part__form form">
+            <h2 class="form__heading">Регистрация</h2>
+            <div class="form__inputs">
+               
+                <input placeholder="Логин" type="text" required class="registration_input inputs__input login-input just-text" name="login-input" minlength="5" maxlength="20" title="Логин должен содержать от 5 до 20 символов и может состоять из латинских букв, цифр и нижнего подчёркивания" name="login-input" pattern="^\w+$">
+                <p class="submit-block__log-reg-error-text incorrect-log-error">Некорректный логин</p>
+            </div>
+            <div class="form__inputs">
+                
+                <input placeholder="Пароль" type="password" required class="registration_input inputs__input password-input just-text" name="password-input" minlength="5" maxlength="40" title="Пароль должен содержать от 5 до 40 символов и не дожен содержать пробел" name="password-input" pattern="^[^\s]*$">
+                <p class="submit-block__log-reg-error-text incorrect-pswd-error">Некорректный пароль</p>
+            </div>
+            <div class="form__submit-block submit-block">
+                <button class="submit-block__submit-btn register-btn btn">Регистрация</button>
+                <br>
+                <button onClick='location.href="login.html"' class="log-reg-part__link-to-main">Вход</button>
+                <br>
+                  <button onClick='location.href="index.html"' class="log-reg-part__link-to-main">На главную</button>
+            </div>
+        </form>
+      
+    </main>
+</body>
+</html>

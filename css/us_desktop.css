@@ -1,0 +1,37 @@
+
+.counter{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+.about_us_h2{
+    margin-top: 5%;
+font-size:60px ;
+   color: transparent;
+   -webkit-background-clip: text;
+   background-clip: text;
+   background-image: linear-gradient(to right,#5588C1 33%,#84E1DC 60%);
+    text-align: center;
+     text-align: center;
+}
+
+.us_counter{
+    position: relative;
+  margin-top: 5%;
+}
+.us_text{
+    display: grid;
+    align-items: center;
+    font-size:50px ;
+    text-align: center;
+    color: transparent;
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+.us_text:hover{
+    color: white;
+background: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0,0,0,0));    transition: 1s;
+}
